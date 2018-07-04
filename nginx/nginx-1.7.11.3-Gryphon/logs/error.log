@@ -1,0 +1,63 @@
+2018/07/04 08:19:23 [warn] 448#6216: "user" is not supported, ignored in E:\nginx\nginx-1.7.11.3-Gryphon/conf\nginx.conf:1
+2018/07/04 08:19:23 [notice] 448#6216: using the "select-boost" event method
+2018/07/04 08:19:23 [notice] 448#6216: nginx/1.7.11.3 Gryphon
+2018/07/04 08:19:23 [info] 448#6216: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/04 08:19:23 [notice] 448#6216: start worker processes
+2018/07/04 08:19:23 [notice] 448#6216: start worker process 8632
+2018/07/04 08:19:24 [notice] 8632#8984: sockinit() attempting to access sockapi
+2018/07/04 08:19:24 [notice] 8632#8984: Access to sockapi succeded!
+2018/07/04 08:19:24 [notice] 8632#8984: using sockapi from "4;8;"
+2018/07/04 08:19:24 [warn] 8632#8984: "user" is not supported, ignored in E:\nginx\nginx-1.7.11.3-Gryphon/conf\nginx.conf:1
+2018/07/04 08:19:24 [notice] 8632#8984: nginx/1.7.11.3 Gryphon
+2018/07/04 08:19:24 [info] 8632#8984: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/04 08:19:24 [notice] 8632#8984: create thread 6628
+2018/07/04 08:19:24 [notice] 8632#8984: create thread 6328
+2018/07/04 08:19:24 [notice] 8632#8984: create thread 9012
+2018/07/04 08:19:50 [error] 8632#6628: *1 CreateFile() "E:\nginx\nginx-1.7.11.3-Gryphon/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:9090", referrer: "http://127.0.0.1:9090/"
+2018/07/04 08:19:52 [info] 8632#6628: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 08:19:52 [info] 8632#6628: *1 client 127.0.0.1 closed keepalive connection
+2018/07/04 13:57:10 [info] 8632#6628: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 13:57:10 [info] 8632#6628: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 13:57:10 [info] 8632#6628: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 13:57:10 [info] 8632#6628: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 13:57:43 [info] 8632#6628: *7 client connected '127.0.0.1'
+2018/07/04 13:57:43 [info] 8632#6628: *7 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf57.56' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 13:57:43 [info] 8632#6628: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 13:57:43 [info] 8632#6628: *7 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:05:23 [info] 8632#6628: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 14:05:23 [info] 8632#6628: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 14:05:23 [info] 8632#6628: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 14:12:52 [info] 8632#6628: *7 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:12:52 [info] 8632#6628: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:12:52 [info] 8632#6628: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:14:26 [info] 8632#6628: *11 client connected '127.0.0.1'
+2018/07/04 14:14:26 [info] 8632#6628: *11 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf57.56' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:14:26 [info] 8632#6628: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:14:26 [info] 8632#6628: *11 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:14:53 [info] 8632#6628: *12 client connected '127.0.0.1'
+2018/07/04 14:14:54 [info] 8632#6628: *12 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:14:54 [info] 8632#6628: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:14:54 [info] 8632#6628: *12 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:16:26 [info] 8632#6628: *12 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:16:26 [info] 8632#6628: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:16:26 [info] 8632#6628: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:16:34 [info] 8632#6628: *11 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:16:34 [info] 8632#6628: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:16:34 [info] 8632#6628: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:19:17 [info] 8632#6628: *13 client connected '127.0.0.1'
+2018/07/04 14:19:17 [info] 8632#6628: *13 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf57.56' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:19:17 [info] 8632#6628: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:19:17 [info] 8632#6628: *13 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:20:28 [info] 8632#6628: *14 client connected '192.168.1.101'
+2018/07/04 14:20:28 [info] 8632#6628: *14 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.102:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.101, server: 0.0.0.0:1935
+2018/07/04 14:20:28 [info] 8632#6628: *14 createStream, client: 192.168.1.101, server: 0.0.0.0:1935
+2018/07/04 14:20:28 [info] 8632#6628: *14 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.101, server: 0.0.0.0:1935
+2018/07/04 14:21:06 [info] 8632#6628: *14 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.101, server: 0.0.0.0:1935
+2018/07/04 14:21:06 [info] 8632#6628: *14 disconnect, client: 192.168.1.101, server: 0.0.0.0:1935
+2018/07/04 14:21:06 [info] 8632#6628: *14 deleteStream, client: 192.168.1.101, server: 0.0.0.0:1935
+2018/07/04 14:24:53 [info] 8632#6628: *13 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:24:53 [info] 8632#6628: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 14:24:53 [info] 8632#6628: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/04 17:29:42 [info] 8632#6628: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 17:29:42 [info] 8632#6628: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/07/04 17:29:42 [info] 8632#6628: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
